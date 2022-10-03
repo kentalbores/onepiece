@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://preview.redd.it/3x8s189ioadx.jpg?auto=webp&s=5f458ce6ce29d4965b920fd7ad69f0afcf1011c4);
+            opacity: 1;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .whole{
+            display: inline-block;
+            width: 200px;
+            height: 300px;
+            margin-right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px 2px rgb(104, 104, 104);
+            background-color: rgba(0, 26, 255, 0.459);
+            margin-top: 50px;
+        }
+        .whole:hover{
+            box-shadow: 0 0 15px 10px rgba(30, 255, 150, 0.664);
+            transition: .5s;
+        }
+        .below{
+            margin-left: 10px;
+            padding:0px;
+            height: fit-content;
+        }
+        p, button{
+            margin: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .name{
+            
+            font-weight:600;
+            font-size: 20px;
+        }
+        .friends{
+            color: rgb(14, 255, 46);
+            font-size: 13px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            object-fit:cover;
+            object-position: center;
+            border-radius: 5px;
+        }
+        button{
+            background-color: rgb(0, 0, 226);
+            border: none;
+            padding: 10px;
+            color: white;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+        button:hover{
+            cursor: pointer;
+            box-shadow: 0 0 5px 5px rgba(0, 132, 184, 0.678);
+        }
+        .main{
+            margin: auto;
+            width: fit-content;
+        }
+        .header{
+            font-weight: 900;
+            font-size: 150px;
+            font-family: cursive;
+            text-align: center;
+            color: rgba(22, 144, 243, 0.863);
+            text-shadow: 0 0 15px rgb(255, 52, 52);
+        }
+        .last{
+            text-align: right;
+            margin-top: 50px;
+        
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><header>The Big Three</header></div>
+    <div class="main">
+        <div class="whole">
+        <img src="https://i.pinimg.com/736x/34/16/65/341665199bb597cdfae9848f975b844f.jpg" alt="luffy">
+        <div class="below">
+            <p class="name">Luffy</p>
+            <p class="friends">3 billion bellies</p>
+            <button><a href="luffy.html">Luffy</a> </button>
+        </div>
+    </div>
+    <div class="whole">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/026/142/657/large/sleepy-jhin-roronoa-zoro-portrait.jpg?1587999560&dl=1" alt="zoro">
+        <div class="below">
+            <p class="name">Zoro</p>
+            <p class="friends">1.1 billion bellies</p>
+            <button>Select</button>
+        </div>
+    </div>
+    <div class="whole">
+        <img src="https://static.zerochan.net/Sanji.full.3508899.jpg" alt="sanji">
+        <div class="below">
+            <p class="name">Sanji</p>
+            <p class="friends">1 billion bellies</p>
+            <button class="san" onclick="">Select</button>
+        </div>
+    </div>
+</div>
+<div class="last">Made by: Kent Albores</div>
+    
+</body>
+</html>
